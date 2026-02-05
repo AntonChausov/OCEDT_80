@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="204f5726-a828-4db4-bb02-abf25dacae98">
+  <producedTypes>
+    <objectType typeId="a0973d05-7e71-44a8-9c4a-72f3ee8c8291" valueTypeId="7021739e-1e7d-4e61-8170-6010204305b7"/>
+    <refType typeId="f2fc3bb7-a9a1-41d6-b9e8-9c37ef2905e4" valueTypeId="a4302f12-17f2-44e8-b19e-9e900b01a5ce"/>
+    <selectionType typeId="64393c45-87fd-4771-8190-95296dd72e99" valueTypeId="75779844-a827-4680-aa9c-080d89068738"/>
+    <listType typeId="d47cb035-31dc-4d79-9c03-e07880bedd33" valueTypeId="1873255d-6e6c-4093-a10a-7038859d55d6"/>
+    <managerType typeId="7c7b6be7-6f11-4d61-8367-5b9b775a8231" valueTypeId="7ca29432-5c20-4eca-b8d1-2613ae325d93"/>
+  </producedTypes>
+  <name>КадровыйПеревод</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кадровый перевод</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.КадровыйПеревод.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.КадровыйПеревод.Form.ФормаДокумента</defaultObjectForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="cd4b82e3-e25c-43ff-9787-08a1ba81d9c4">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="0c1aabd0-5760-4a66-a88b-3cc9e63f4204">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="57d7665b-34fa-47dc-a101-72c04436239e">
+    <producedTypes>
+      <objectType typeId="61b62cc3-f00b-4d54-bc94-438b9c5d277f" valueTypeId="1d2e2be5-78ba-4e29-b2fc-3f23eaadefdd"/>
+      <rowType typeId="b28e18e3-b812-459b-a0b4-1dcc3db14888" valueTypeId="ece8fb8b-fa20-4eaa-926f-8d829f9b031a"/>
+    </producedTypes>
+    <name>Должности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должности</value>
+    </synonym>
+    <attributes uuid="cf709822-9a86-49da-8b72-448f44f6f5b1">
+      <name>Должность</name>
+      <synonym>
+        <key>ru</key>
+        <value>Должность</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="79176d8b-0652-4416-bc54-2e947460cef2">
+      <name>КоличествоСтавок</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество ставок</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+</mdclass:Document>
