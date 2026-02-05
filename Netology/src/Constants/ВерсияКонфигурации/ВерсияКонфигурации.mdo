@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a711ceb8-44ad-4f37-8377-e9872b0221f6">
+  <producedTypes>
+    <managerType typeId="5e5f63ce-e774-4f89-b299-56dc7551d082" valueTypeId="0d3cda09-3e5a-4e90-8706-eb3d13e138bc"/>
+    <valueManagerType typeId="d4fc1be1-3571-47d1-a6b4-8e518f13c739" valueTypeId="2d461d72-98e0-4f4f-b4df-02975cacd643"/>
+    <valueKeyType typeId="1af8afee-64a4-43a3-adc0-402ad43c2960" valueTypeId="7746e52b-0efd-4f9f-adb7-1de8600df17d"/>
+  </producedTypes>
+  <name>ВерсияКонфигурации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версия конфигурации</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>15</length>
+    </stringQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

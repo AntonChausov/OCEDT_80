@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f0c97a56-8d1d-43fd-938e-b36018a4d1e9">
+  <producedTypes>
+    <objectType typeId="1c8407ba-6889-46b3-8341-da257818f48f" valueTypeId="51ccf3c1-3f1b-4eb9-88ac-b1df1aeeda15"/>
+    <refType typeId="d59db300-cf73-41d2-a59a-57f78bfab0ce" valueTypeId="ecb07dbf-82ea-4e2f-93ee-53f36c20998a"/>
+    <selectionType typeId="90a11e12-c078-4652-b10a-4b9b8f2ea864" valueTypeId="ba8c9ab9-204b-408b-bd99-f9848ca8d23f"/>
+    <listType typeId="12759d15-1fde-403c-923c-0a92dda2ceb0" valueTypeId="e046bf2a-ab87-4c3b-aaf0-b44af4206e42"/>
+    <managerType typeId="851051b7-7bcb-492b-a3f8-dcec6565c1aa" valueTypeId="a0e7a999-97bc-43ca-89bd-57f91d6500b1"/>
+  </producedTypes>
+  <name>ЗаказПокупателя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заказ покупателя</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ЗаказПокупателя.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Заказ покупателя</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Заказы покупателей</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ЗаказПокупателя.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.ЗаказПокупателя.Form.ФормаСписка</defaultListForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <forms uuid="288eb4c1-d055-4448-9faf-9391e22043ea">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="095d7a6b-5a78-4465-9e1e-44155f1c7878">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

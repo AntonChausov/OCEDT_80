@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="566f2237-3591-436c-9307-637498ed2f3f">
+  <producedTypes>
+    <objectType typeId="deff8c3d-998a-4e94-9c01-eeb9c7f4a1d0" valueTypeId="c4cc02fb-ebb1-4c26-b4cf-22d02c7caf33"/>
+    <managerType typeId="bd3162c1-b1b7-4d2e-b3a2-c84dc28bdd2f" valueTypeId="ede5573c-521f-4c83-a558-40210b72939b"/>
+  </producedTypes>
+  <name>ОстаткиПоСкладам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Остатки по складам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ОстаткиПоСкладам.Form.ФормаОтчета</defaultForm>
+  <forms uuid="85759347-5ca8-4c8b-93e5-fb859d6a7cda">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="60c645b6-cc5a-4431-aaf1-27104280f9e8">
+    <name>ОстаткиПоСкладам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Остатки по складам</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

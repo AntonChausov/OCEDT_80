@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f7316df1-d595-4e91-a74b-9a17a06d6056">
+  <producedTypes>
+    <containerType typeId="99fcc34d-1265-4716-9f0b-3ee5bfdf92b8" valueTypeId="e9f29226-b424-45ce-8a56-c20cd96d57e5"/>
+  </producedTypes>
+  <name>Число</name>
+  <synonym>
+    <key>ru</key>
+    <value>Число</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>15</precision>
+      <scale>3</scale>
+    </numberQualifiers>
+  </type>
+</mdclass:DefinedType>

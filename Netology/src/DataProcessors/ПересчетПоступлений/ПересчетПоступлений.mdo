@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e47a0210-8ebb-4ad5-ad5e-c2a715717dfe">
+  <producedTypes>
+    <objectType typeId="f47c04d5-5a35-4dbc-b27d-99a2d063e2b9" valueTypeId="e619298d-41c9-436b-9e36-ab8b29f7dc38"/>
+    <managerType typeId="c589c639-d4ad-4530-bfaf-c8981189822c" valueTypeId="aa49b387-9320-4e86-a310-3593861bec46"/>
+  </producedTypes>
+  <name>ПересчетПоступлений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пересчет поступлений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПересчетПоступлений.Form.Форма</defaultForm>
+  <forms uuid="41c858f8-6965-426e-ac9f-514ac4f43ee4">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

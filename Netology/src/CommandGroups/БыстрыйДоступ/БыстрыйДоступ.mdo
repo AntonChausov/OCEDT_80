@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommandGroup xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4e81c8d5-acda-4b70-89b3-788dc7e9715d">
+  <name>БыстрыйДоступ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Быстрый доступ</value>
+  </synonym>
+  <representation>Auto</representation>
+</mdclass:CommandGroup>

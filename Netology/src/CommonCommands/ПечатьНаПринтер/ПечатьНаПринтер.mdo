@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c196e1d6-817a-4299-8948-8f75b03b3332">
+  <name>ПечатьНаПринтер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать на принтер</value>
+  </synonym>
+  <group>CommandGroup.Печать</group>
+  <commandParameterType>
+    <types>DocumentRef.ЗаказПоставщику</types>
+    <types>DocumentRef.ЗаказПокупателя</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>
